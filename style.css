@@ -1,0 +1,109 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Cabeçalho com o azul clássico do Sonic */
+header {
+    background-color: #0054a6;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container do Conteúdo */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Seções da Página */
+.section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-left: 5px solid #e5a93b; /* Amarelo das argolas */
+}
+
+.section h2 {
+    color: #0054a6;
+    margin-top: 0;
+}
+
+/* Estilização da Imagem e Informações */
+.character-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sonic-img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.character-info p {
+    flex: 1;
+    min-width: 250px;
+    line-height: 1.6;
+}
+
+/* Lista de Curiosidades */
+.curiosidades ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.curiosidades li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* Tabela de Jogos */
+.games-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.games-table th, .games-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.games-table th {
+    background-color: #0054a6;
+    color: white;
+}
+
+.games-table tr:hover {
+    background-color: #f1f7fc;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
